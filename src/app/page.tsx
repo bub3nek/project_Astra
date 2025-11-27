@@ -258,25 +258,25 @@ export default function Home() {
                 <div className="bg-white text-gray-900 rounded-3xl p-10 shadow-2xl">
                   <h3 className="text-2xl font-bold mb-8">The Trade-off</h3>
 
-                  <div className="space-y-8">
-                    <div className="flex items-center">
-                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-2xl mr-6 flex-shrink-0">Drivers</div>
-                      <div>
-                        <div className="text-3xl font-bold text-green-600">+60-90 min</div>
-                        <div className="text-gray-500">Road time gained</div>
+                    <div className="space-y-8">
+                      <div className="flex items-center justify-around w-full gap-6">
+                        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">Drivers</div>
+                        <div className="flex flex-col items-center text-center">
+                          <div className="text-3xl font-bold text-green-600">+60-90 min</div>
+                          <div className="text-gray-500">Road time gained</div>
+                        </div>
+                      </div>
+
+                      <div className="h-px bg-gray-200 w-full"></div>
+
+                      <div className="flex items-center justify-around w-full gap-6">
+                        <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">Warehouse</div>
+                        <div className="flex flex-col items-center text-center">
+                          <div className="text-3xl font-bold text-orange-600">-5-10 min</div>
+                          <div className="text-gray-500">Additional task time</div>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="h-px bg-gray-200 w-full"></div>
-
-                    <div className="flex items-center">
-                      <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl mr-6 flex-shrink-0">Warehouse</div>
-                      <div>
-                        <div className="text-3xl font-bold text-orange-600">-5-10 min</div>
-                        <div className="text-gray-500">Additional task time</div>
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="mt-10 bg-gray-50 p-6 rounded-xl border border-gray-100">
                     <p className="text-center font-medium text-gray-700">
