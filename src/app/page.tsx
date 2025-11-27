@@ -51,7 +51,7 @@ export default function Home() {
                 </p>
                 <div className="pt-4">
                   <p className="text-lg text-gray-500 border-l-4 border-orange-500 pl-6 italic">
-                    &quot;Identifying and removing inefficiencies, then reallocating tasks to the teams best positioned to perform them efficiently.&quot;
+                    {"\"Identifying andd removing inefficiencies, then reallocating tasks to the teams best positioned to perform them efficiently.\""}
                   </p>
                 </div>
                 <div className="pt-8">
@@ -280,7 +280,7 @@ export default function Home() {
 
                   <div className="mt-10 bg-gray-50 p-6 rounded-xl border border-gray-100">
                     <p className="text-center font-medium text-gray-700">
-                      &quot;A massive net positive for the organization with no additional staff required.&quot;
+                      {"\"A massive net positive for the organization with no additional staff required.\""}
                     </p>
                   </div>
                 </div>
