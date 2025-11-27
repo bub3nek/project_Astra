@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+import Image from "next/image";
+
 export default function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -20,8 +22,14 @@ export default function PageLoader() {
     <div className="page-loader">
       <div className="loader-content">
         <div className="logo-container">
-          {/* Using img for simplicity in this specific animation context */}
-          <img src="/images/logo.png" alt="Loading..." className="loader-logo" />
+          <Image
+            src="/images/logo.png"
+            alt="Loading..."
+            width={120}
+            height={120}
+            className="loader-logo"
+            priority
+          />
         </div>
       </div>
 
